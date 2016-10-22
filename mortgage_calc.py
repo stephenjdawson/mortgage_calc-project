@@ -72,7 +72,7 @@ def create_table_values(term, principal, monthly_payment, rate):
 def print_table(table_values):
     """Given a list of values to be printed, print the mortgage table
     """
-    print tabulate(table_values, headers=['Payment', 'Interest', 'Principal', 'Balance'], tablefmt='orgtbl')
+    print(tabulate(table_values, headers=['Payment', 'Interest', 'Principal', 'Balance'], tablefmt='orgtbl'))
 
 def parse_args(args):
     parser = argparse.ArgumentParser(description='Simple mortgage table calculator.')
