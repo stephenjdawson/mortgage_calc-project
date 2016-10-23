@@ -1,4 +1,4 @@
 [report]
 omit =
     */
-    */site-packages/tabular*
+    */site-packages/tabulate*
